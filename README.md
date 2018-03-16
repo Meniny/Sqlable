@@ -2,7 +2,7 @@
 <p align="center">
   <!-- <img src="./Assets/Sqlable.png" alt="Sqlable"> -->
   <br/><a href="https://cocoapods.org/pods/Sqlable">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-brightgreen.svg">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.1-brightgreen.svg">
   <img alt="Author" src="https://img.shields.io/badge/author-Meniny-blue.svg">
   <img alt="Build Passing" src="https://img.shields.io/badge/build-passing-brightgreen.svg">
   <img alt="Swift" src="https://img.shields.io/badge/swift-4.0%2B-orange.svg">
@@ -100,7 +100,7 @@ let database = try SQLiteDatabase.init(filepath: doc.appendingPathComponent("Use
 create table if not exists:
 
 ```swift
-try database.createTable(User.self)
+try database.create(table: User.self)
 ```
 
 do your work, let's `insert` for example:

@@ -317,7 +317,7 @@ public class SQLiteDatabase {
 	/// - Parameters:
 	///		- _: A Sqlable type (use e.g. Table.self)
 	/// - Throws: A SQLError if the table couldn't be created.
-	public func createTable<T: Sqlable>(_: T.Type) throws {
+	public func create<T: Sqlable>(table: T.Type) throws {
 		try execute(T.createTable())
 	}
 	

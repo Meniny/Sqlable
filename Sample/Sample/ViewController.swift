@@ -81,7 +81,7 @@ class ViewController: UITableViewController {
     func setup() throws -> SQLiteDatabase {
         let doc = try FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false)
         let database = try SQLiteDatabase.init(filepath: doc.appendingPathComponent(kUserDBName).path)
-        try database.createTable(User.self)
+        try database.create(table: User.self)
         return database
     }
     
