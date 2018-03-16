@@ -1,0 +1,16 @@
+PODS:
+  - Sqlable (1.0.0)
+
+DEPENDENCIES:
+  - Sqlable (from `../`)
+
+EXTERNAL SOURCES:
+  Sqlable:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Sqlable: 747cee541043cddc0c766bf544e1835a037e7a5e
+
+PODFILE CHECKSUM: 55615bd5a3b86f08e568c945b7429fd7c5b53d33
+
+COCOAPODS: 1.4.0
