@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Sqlable"
-  s.version          = "1.0.1"
+  s.version          = "1.1.0"
   s.summary          = "Swift ORM framework."
 
   s.description      = <<-DESC
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = "10.10"
   s.watchos.deployment_target = "2.2"
 
-  s.swift_version    = '4.0'
+  s.swift_version    = '5.0'
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => s.swift_version.to_s }
   s.source_files = 'Sqlable/**/*.{swift}'
   # s.private_header_files = 'Sqlable/**/*.h'

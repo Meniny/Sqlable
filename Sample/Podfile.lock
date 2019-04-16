@@ -1,16 +1,16 @@
 PODS:
-  - Sqlable (1.0.0)
+  - Sqlable (1.1.0)
 
 DEPENDENCIES:
   - Sqlable (from `../`)
 
 EXTERNAL SOURCES:
   Sqlable:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  Sqlable: 747cee541043cddc0c766bf544e1835a037e7a5e
+  Sqlable: 3444eae99a68c7b2136518dc4a4fdbfd5feb1e85
 
 PODFILE CHECKSUM: 55615bd5a3b86f08e568c945b7429fd7c5b53d33
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.7.0.beta.3
